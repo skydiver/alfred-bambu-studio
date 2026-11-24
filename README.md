@@ -21,6 +21,8 @@ shows its import dialog.
 
 ## Usage
 
+<img src=".github/assets/screenshot.png" alt="Bambu Recent results in Alfred" width="420" />
+
 Type `bambu` in Alfred. Keep typing to filter by file name or folder. To change
 the keyword, open the workflow's **Configure Workflow** panel in Alfred.
 
