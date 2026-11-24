@@ -71,3 +71,7 @@ make test    # run the unit tests (fixtures only; the real config is never touch
 make dist    # package dist/Bambu-Recent.alfredworkflow
 make clean   # remove dist/ and Python caches
 ```
+
+## License
+
+[MIT](./LICENSE)
