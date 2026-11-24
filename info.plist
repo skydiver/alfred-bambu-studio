@@ -150,12 +150,26 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Type `bs` (configurable) to list recent Bambu Studio projects.
+	<string>Lists the projects you recently opened in Bambu Studio, newest first, with thumbnails.
 
-↵ Open in Bambu Studio
-⌘↵ Reveal in Finder
-⌥↵ Copy path
-⇧ Quick Look</string>
+Type the keyword (default `bs`) and keep typing to filter by file name or folder.
+
+## Actions
+
+- **↵** Open in Bambu Studio
+- **⌘↵** Reveal in Finder
+- **⌥↵** Copy path to clipboard
+- **⇧** Quick Look
+
+Projects on a volume that isn't mounted stay in the list; only **⌥↵** works for them.
+
+## Configuration
+
+Change the keyword in the workflow's **Configure Workflow** panel.
+
+## Contributing
+
+Source code, issues and pull requests are on GitHub: [skydiver/alfred-bambu-studio](https://github.com/skydiver/alfred-bambu-studio). Bug reports, ideas and contributions are welcome.</string>
 	<key>uidata</key>
 	<dict>
 		<key>1ADC7515-7C7A-4F1A-BEEA-784A91269206</key>
@@ -212,8 +226,8 @@
 		</dict>
 	</array>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
-	<string>https://github.com/skydiver/</string>
+	<string>https://github.com/skydiver/alfred-bambu-studio</string>
 </dict>
 </plist>
