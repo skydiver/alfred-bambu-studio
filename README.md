@@ -21,7 +21,7 @@ shows its import dialog.
 
 ## Usage
 
-Type `bs` in Alfred. Keep typing to filter by file name or folder. To change
+Type `bambu` in Alfred. Keep typing to filter by file name or folder. To change
 the keyword, open the workflow's **Configure Workflow** panel in Alfred.
 
 | Key | Action                              |

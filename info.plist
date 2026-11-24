@@ -152,7 +152,7 @@
 	<key>readme</key>
 	<string>Lists the projects you recently opened in Bambu Studio, newest first, with thumbnails.
 
-Type the keyword (default `bs`) and keep typing to filter by file name or folder.
+Type the keyword (default `bambu`) and keep typing to filter by file name or folder.
 
 ## Actions
 
@@ -207,9 +207,9 @@ Source code, issues and pull requests are on GitHub: [skydiver/alfred-bambu-stud
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>bs</string>
+				<string>bambu</string>
 				<key>placeholder</key>
-				<string>bs</string>
+				<string>bambu</string>
 				<key>required</key>
 				<true/>
 				<key>trim</key>
