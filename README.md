@@ -1,3 +1,5 @@
+<img src=".github/assets/banner.png" alt="Bambu Recent" width="100%" />
+
 # Bambu Recent
 
 An [Alfred](https://www.alfredapp.com) workflow that lists the projects you
