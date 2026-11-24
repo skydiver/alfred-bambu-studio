@@ -43,7 +43,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>Martín M.</string>
 	<key>description</key>
 	<string>Open recent Bambu Studio projects</string>
 	<key>disabled</key>
@@ -190,6 +190,6 @@
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/skydiver/</string>
 </dict>
 </plist>
