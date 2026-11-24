@@ -68,7 +68,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>bambu</string>
+				<string>{var:keyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -150,7 +150,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Type `bambu` to list recent Bambu Studio projects.
+	<string>Type `bs` (configurable) to list recent Bambu Studio projects.
 
 ↵ Open in Bambu Studio
 ⌘↵ Reveal in Finder
@@ -187,6 +187,30 @@
 			<real>150.0</real>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>bs</string>
+				<key>placeholder</key>
+				<string>bs</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Keyword that lists recent Bambu Studio projects</string>
+			<key>label</key>
+			<string>Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>keyword</string>
+		</dict>
+	</array>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>
