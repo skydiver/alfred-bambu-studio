@@ -70,8 +70,3 @@ make test    # run the unit tests (fixtures only; the real config is never touch
 make dist    # package dist/Bambu-Recent.alfredworkflow
 make clean   # remove dist/ and Python caches
 ```
-
-## Icon
-
-The workflow doesn't include an `icon.png` yet. When one is added to the
-repository root, `make dist` packages it automatically.
