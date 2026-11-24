@@ -13,11 +13,11 @@ keystroke.
 ## Install
 
 ```sh
-make build
-open Bambu-Recent.alfredworkflow
+make install
 ```
 
-Alfred then shows its import dialog.
+This packages `dist/Bambu-Recent.alfredworkflow` and opens it, and Alfred
+shows its import dialog.
 
 ## Usage
 
@@ -65,12 +65,13 @@ cache folder to clear them.
 ## Development
 
 ```sh
+make         # list the available targets
 make test    # run the unit tests (fixtures only; the real config is never touched)
-make build   # package Bambu-Recent.alfredworkflow
-make clean   # remove build artifacts
+make dist    # package dist/Bambu-Recent.alfredworkflow
+make clean   # remove dist/ and Python caches
 ```
 
 ## Icon
 
 The workflow doesn't include an `icon.png` yet. When one is added to the
-repository root, `make build` packages it automatically.
+repository root, `make dist` packages it automatically.
